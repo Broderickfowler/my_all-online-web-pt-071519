@@ -11,6 +11,6 @@ while i < collection.length
   if block_return_values.include?(false)
     false
     else 
-      ture
+      true
   end
 end
