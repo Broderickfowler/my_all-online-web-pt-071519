@@ -10,6 +10,7 @@ while i < collection.length
   end
   if block_return_value.include?(false)
     false
-    else ture
+    else 
+      ture
   end
 end
