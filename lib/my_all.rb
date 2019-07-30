@@ -8,4 +8,8 @@ while i < collection.length
    block_return_value << yield(collection[i])
     i += 1
   end
+  if block_return_value.include?(false)
+    false
+    else ture
+  end
 end
